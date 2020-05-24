@@ -34,7 +34,8 @@
                         <tr>
                             <th scope="col">Train Name</th>
                             <th scope="col">Destination</th>
-                            <th scope="col">Frequency (min)</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Frequency</th>
                             <th scope="col">Next Arrival</th>
                             <th scope="col">Minutes Away</th>
                         </tr>
@@ -68,13 +69,13 @@
                             </div>
                             <div class="form-group row">
                               <label for="time-input">First Train Time (HH:mm - Military time)</label>
-                              <input class="form-control" id="time-input" type="number">
+                              <input class="form-control" id="time-input" type="text">
                             </div>
                             <div class="form-group row">
                               <label for="frequency-input">Frequency (min)</label>
                               <input class="form-control" id="frequency-input" type="number">
                             </div>
-                            <button class="btn btn-default bg-dark text-white" id="add-user" type="submit">Submit</button>
+                            <button class="btn btn-default bg-dark text-white" id="add-train-btn" type="submit">Submit</button>
                           </form>
                     </div>
                 </div>
